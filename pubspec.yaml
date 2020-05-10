@@ -1,0 +1,15 @@
+name: my_awesome_api
+description: Test of Aqueduct, a dart framework to host a multi-threaded http server.
+version: 0.0.1
+author: Matheus Azambuja <matheushenrique.ads@gmail.com>
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  aqueduct: ^3.0.0
+  mongo_dart: ^0.4.0
+
+dev_dependencies:
+  test: ^1.0.0
+  aqueduct_test: ^1.0.0
